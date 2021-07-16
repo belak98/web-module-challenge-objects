@@ -118,10 +118,13 @@ Use the getReviewByIndex function below to do the following:
 
 
 function getReviewByIndex(array, number) {
+  for(let i = 0; i < number; i++){
   return `${array[number].name} gave the restaurant a ${array[number].rating} star review, and their feedback was: ${array[number].feedback}`;
+  }
 }
 
-console.log('task 6', getReviewByIndex('reviews', 3));
+
+console.log('task 6', getReviewByIndex(reviews, 3));
   
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -158,9 +161,8 @@ Use the getReviewsByRating function below to do the following:
   ]
 */
 
- function getReviewByRating(/* code here */) {
-    /* code here */
-  }
+ function getReviewByRating() {
+ }
 
   
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪💪💪💪💪   
