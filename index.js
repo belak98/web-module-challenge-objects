@@ -118,7 +118,7 @@ Use the getReviewByIndex function below to do the following:
 
 
 function getReviewByIndex(array, number) {
-  for(let i = 0; i < number; i++){
+  for(let i = 0; i <= number; i++){
   return `${array[number].name} gave the restaurant a ${array[number].rating} star review, and their feedback was: ${array[number].feedback}`;
   }
 }
